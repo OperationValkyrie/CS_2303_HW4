@@ -1,0 +1,268 @@
+Input:
+  Customers:            50
+  Tellers:              5
+  Simulation Time:      50
+  Average Service Time: 2.7
+  Queue:                Separate
+
+(Copied from end of log)
+Final Simulation Statistics:
+  Total Customers Served:             47
+  Total Time:                         49.748539
+  Total Number of Tellers:            5
+  Type of Queuing:                    Separate Queues
+  Average Time in Bank:               3.38851213
+  Standard Deviation of Time in Bank: 1.2185365
+  Maximum Wait Time:                  3.02923584
+  Total Teller Service Time:          139.79808
+  Total Teller Idle Time:             93.5166702
+
+C: 50 ,T: 5 ,MT:50 ,AST: 2.7 ,S: 1518632224
+
+Initial Event Queue:
+  Time: 0.0464299694, C: 1, S:0
+  Time: 0.966666639, C: 0, S:0
+  Time: 1.00465941, C: 1, S:0
+  Time: 1.25783277, C: 1, S:0
+  Time: 1.58333337, C: 0, S:0
+  Time: 2.12570691, C: 1, S:0
+  Time: 3.0666666, C: 0, S:0
+  Time: 3.14367747, C: 1, S:0
+  Time: 6.88333321, C: 0, S:0
+  Time: 7.56934214, C: 1, S:0
+  Time: 7.80700684, C: 1, S:0
+  Time: 8.28333378, C: 0, S:0
+  Time: 9.51111889, C: 1, S:0
+  Time: 10.669981, C: 1, S:0
+  Time: 11.1795979, C: 1, S:0
+  Time: 11.2260284, C: 1, S:0
+  Time: 12.8445778, C: 1, S:0
+  Time: 12.9784222, C: 1, S:0
+  Time: 13.8567181, C: 1, S:0
+  Time: 14.220437, C: 1, S:0
+  Time: 14.9038982, C: 1, S:0
+  Time: 15.2534533, C: 1, S:0
+  Time: 17.3641167, C: 1, S:0
+  Time: 17.5507832, C: 1, S:0
+  Time: 18.2627277, C: 1, S:0
+  Time: 18.7953701, C: 1, S:0
+  Time: 18.8907108, C: 1, S:0
+  Time: 19.7474384, C: 1, S:0
+  Time: 20.2734737, C: 1, S:0
+  Time: 21.4332294, C: 1, S:0
+  Time: 21.4607582, C: 1, S:0
+  Time: 22.147913, C: 1, S:0
+  Time: 22.3822517, C: 1, S:0
+  Time: 24.178772, C: 1, S:0
+  Time: 28.2318764, C: 1, S:0
+  Time: 28.6800423, C: 1, S:0
+  Time: 29.5606937, C: 1, S:0
+  Time: 31.1073036, C: 1, S:0
+  Time: 32.9667015, C: 1, S:0
+  Time: 34.2249031, C: 1, S:0
+  Time: 34.3086166, C: 1, S:0
+  Time: 36.57341, C: 1, S:0
+  Time: 37.5652275, C: 1, S:0
+  Time: 38.2689896, C: 1, S:0
+  Time: 38.2708015, C: 1, S:0
+  Time: 39.7463684, C: 1, S:0
+  Time: 40.0308533, C: 1, S:0
+  Time: 40.0416679, C: 1, S:0
+  Time: 40.2223396, C: 1, S:0
+  Time: 40.3965073, C: 1, S:0
+  Time: 44.1823311, C: 1, S:0
+  Time: 45.859333, C: 1, S:0
+  Time: 48.6580887, C: 1, S:0
+  Time: 48.9528198, C: 1, S:0
+  Time: 49.3081284, C: 1, S:0
+
+Running Events:
+  0.0464299694 Added Customer
+  0.966666639 Teller Serving
+  1.00465941 Added Customer
+  1.25783277 Added Customer
+  1.58333337 Teller Serving
+  2.12570691 Added Customer
+  3.05881572 Customer Served Teller Serving
+  3.0666666 Teller Serving
+  3.14367747 Added Customer
+  3.43034363 Customer Served Teller Serving
+  5.05447292 Customer Served Teller Idle
+  5.6317811 Customer Served Teller Idle
+  6.33780622 Teller Idle
+  6.36511421 Teller Idle
+  6.43178082 Teller Idle
+  6.88333321 Teller Idle
+  7.33780622 Teller Idle
+  7.34844732 Teller Idle
+  7.56934214 Added Customer
+  7.80700684 Added Customer
+  7.88333321 Teller Serving
+  8.01197243 Customer Served Teller Serving
+  8.02113914 Teller Idle
+  8.28333378 Teller Idle
+  8.55000019 Teller Idle
+  8.55958366 Customer Served Teller Idle
+  8.92113876 Teller Idle
+  8.99844742 Teller Idle
+  9.24291706 Teller Idle
+  9.43178082 Teller Idle
+  9.51111889 Added Customer
+  9.65000057 Teller Serving
+  9.87625027 Teller Idle
+  10.2984476 Teller Idle
+  10.659584 Teller Idle
+  10.669981 Added Customer
+  10.7309132 Customer Served Teller Serving
+  10.8544722 Teller Idle
+  11.1795979 Added Customer
+  11.2260284 Added Customer
+  11.4429178 Teller Serving
+  11.4544725 Teller Serving
+  12.3651142 Teller Idle
+  12.8445778 Added Customer
+  12.9784222 Added Customer
+  13.0813675 Customer Served Teller Serving
+  13.0817804 Teller Serving
+  13.1069717 Customer Served Teller Idle
+  13.1569719 Teller Idle
+  13.8567181 Added Customer
+  14.220437 Added Customer
+  14.9038982 Added Customer
+  15.0387154 Customer Served Teller Serving
+  15.0903053 Teller Serving
+  15.2534533 Added Customer
+  15.84519 Customer Served Teller Serving
+  16.3840904 Customer Served Teller Serving
+  16.7410507 Customer Served Teller Idle
+  17.3001213 Customer Served Teller Idle
+  17.3641167 Added Customer
+  17.5507832 Added Customer
+  18.0910511 Teller Serving
+  18.2627277 Added Customer
+  18.4501209 Teller Serving
+  18.7259102 Customer Served Teller Serving
+  18.7953701 Added Customer
+  18.8907108 Added Customer
+  19.0943527 Customer Served Teller Serving
+  19.1654625 Customer Served Teller Serving
+  19.7474384 Added Customer
+  19.8431168 Customer Served Teller Serving
+  20.2734737 Added Customer
+  20.3047409 Customer Served Teller Serving
+  20.4507179 Customer Served Teller Idle
+  21.3007183 Teller Idle
+  21.4332294 Added Customer
+  21.4607582 Added Customer
+  22.147913 Added Customer
+  22.3822517 Added Customer
+  22.4193897 Customer Served Teller Serving
+  22.5840511 Teller Serving
+  23.220789 Customer Served Teller Serving
+  24.178772 Added Customer
+  24.4624653 Customer Served Teller Serving
+  24.7412796 Customer Served Teller Serving
+  26.1380959 Customer Served Teller Idle
+  26.3971024 Customer Served Teller Idle
+  26.682272 Customer Served Teller Idle
+  27.0221577 Customer Served Teller Idle
+  27.2185326 Customer Served Teller Idle
+  27.6880951 Teller Idle
+  28.1804352 Teller Idle
+  28.2318764 Added Customer
+  28.4054909 Teller Serving
+  28.6800423 Added Customer
+  28.7880955 Teller Serving
+  29.0489388 Teller Idle
+  29.0851994 Teller Idle
+  29.5606937 Added Customer
+  29.5685329 Teller Serving
+  29.8137684 Teller Idle
+  30.2824459 Customer Served Teller Idle
+  30.6989384 Teller Idle
+  31.1073036 Added Customer
+  31.1304359 Teller Serving
+  31.9157791 Teller Idle
+  32.0491142 Teller Idle
+  32.1491127 Teller Idle
+  32.4991112 Teller Idle
+  32.9280243 Customer Served Teller Idle
+  32.9667015 Added Customer
+  33.0822716 Teller Serving
+  33.1332817 Customer Served Teller Idle
+  34.0293159 Customer Served Teller Idle
+  34.2249031 Added Customer
+  34.2332802 Teller Serving
+  34.3086166 Added Customer
+  34.3113594 Teller Serving
+  34.3491096 Teller Idle
+  35.6157761 Teller Idle
+  35.7626495 Teller Idle
+  36.032444 Teller Idle
+  36.2832489 Customer Served Teller Idle
+  36.5126495 Teller Idle
+  36.57341 Added Customer
+  37.186409 Customer Served Teller Serving
+  37.2626495 Teller Idle
+  37.532444 Teller Idle
+  37.5652275 Added Customer
+  37.6657791 Teller Serving
+  38.099369 Customer Served Teller Idle
+  38.2689896 Added Customer
+  38.2708015 Added Customer
+  38.3126488 Teller Serving
+  38.666584 Teller Serving
+  39.6906204 Customer Served Teller Idle
+  39.7463684 Added Customer
+  39.7851677 Customer Served Teller Serving
+  40.0308533 Added Customer
+  40.0416679 Added Customer
+  40.2223396 Added Customer
+  40.3965073 Added Customer
+  40.5660362 Teller Serving
+  41.2074127 Customer Served Teller Serving
+  41.4571724 Customer Served Teller Serving
+  41.5739555 Teller Serving
+  41.7188911 Customer Served Teller Idle
+  42.1855583 Teller Idle
+  42.7081642 Customer Served Teller Idle
+  42.8120499 Customer Served Teller Idle
+  43.0355568 Teller Idle
+  43.0570946 Customer Served Teller Idle
+  43.5953827 Teller Idle
+  44.1823311 Added Customer
+  44.2355576 Teller Serving
+  44.4414978 Teller Idle
+  44.4581642 Teller Idle
+  44.7654152 Customer Served Teller Idle
+  44.8300514 Customer Served Teller Idle
+  45.323761 Teller Idle
+  45.3620491 Teller Idle
+  45.6987495 Teller Idle
+  45.859333 Added Customer
+  45.8987503 Teller Serving
+  46.4800529 Teller Idle
+  46.5070953 Teller Idle
+  46.8081627 Teller Idle
+  47.0120506 Teller Idle
+  47.4467201 Teller Idle
+  48.445385 Teller Idle
+  48.6570969 Teller Idle
+  48.6580887 Added Customer
+  48.6914978 Teller Serving
+  48.9528198 Added Customer
+  49.3081284 Added Customer
+  49.373764 Teller Serving
+  49.563385 Teller Serving
+  49.748539 Customer Served Teller Idle
+
+Final Simulation Statistics:
+  Total Customers Served:             47
+  Total Time:                         49.748539
+  Total Number of Tellers:            5
+  Type of Queuing:                    Separate Queues
+  Average Time in Bank:               3.38851213
+  Standard Deviation of Time in Bank: 1.2185365
+  Maximum Wait Time:                  3.02923584
+  Total Teller Service Time:          139.79808
+  Total Teller Idle Time:             93.5166702

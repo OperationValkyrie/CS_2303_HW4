@@ -1,0 +1,651 @@
+Input:
+  Customers:            200
+  Tellers:              5
+  Simulation Time:      50
+  Average Service Time: 1.1
+  Queue:                Common
+
+(Copied from end of log)
+Final Simulation Statistics:
+  Total Customers Served:             191
+  Total Time:                         49.9019699
+  Total Number of Tellers:            5
+  Type of Queuing:                    Common Queue
+  Average Time in Bank:               2.30180788
+  Standard Deviation of Time in Bank: 0.735817373
+  Maximum Wait Time:                  3.41937971
+  Total Teller Service Time:          210.217987
+  Total Teller Idle Time:             19.5833321
+
+C: 200 ,T: 5 ,MT:50 ,AST: 1.1 ,S: 1518632014
+
+Initial Event Queue:
+  Time: 0.112991899, C: 1, S:0
+  Time: 0.366666675, C: 0, S:0
+  Time: 0.389521331, C: 1, S:0
+  Time: 0.423939466, C: 1, S:0
+  Time: 1.06887615, C: 1, S:0
+  Time: 1.51189291, C: 1, S:0
+  Time: 1.91842127, C: 1, S:0
+  Time: 2.09464073, C: 1, S:0
+  Time: 2.09804463, C: 1, S:0
+  Time: 2.36666656, C: 0, S:0
+  Time: 2.6137073, C: 1, S:0
+  Time: 2.73342896, C: 1, S:0
+  Time: 2.98480701, C: 1, S:0
+  Time: 3.18793654, C: 1, S:0
+  Time: 3.55371284, C: 1, S:0
+  Time: 3.6805048, C: 1, S:0
+  Time: 4.24532175, C: 1, S:0
+  Time: 5.19264221, C: 1, S:0
+  Time: 5.21559381, C: 1, S:0
+  Time: 5.25956392, C: 1, S:0
+  Time: 5.39570522, C: 1, S:0
+  Time: 5.54785967, C: 1, S:0
+  Time: 5.57421589, C: 1, S:0
+  Time: 5.75769567, C: 1, S:0
+  Time: 5.80000019, C: 0, S:0
+  Time: 5.93738127, C: 1, S:0
+  Time: 6.16485167, C: 1, S:0
+  Time: 7.18044329, C: 1, S:0
+  Time: 7.30551195, C: 1, S:0
+  Time: 7.55468845, C: 1, S:0
+  Time: 7.9181776, C: 1, S:0
+  Time: 8.01666641, C: 0, S:0
+  Time: 8.27466583, C: 1, S:0
+  Time: 8.41111183, C: 1, S:0
+  Time: 8.41716385, C: 1, S:0
+  Time: 8.85000038, C: 0, S:0
+  Time: 8.85913181, C: 1, S:0
+  Time: 8.94941807, C: 1, S:0
+  Time: 9.37335682, C: 1, S:0
+  Time: 9.54264164, C: 1, S:0
+  Time: 9.57927322, C: 1, S:0
+  Time: 9.76016998, C: 1, S:0
+  Time: 10.1994696, C: 1, S:0
+  Time: 10.6683903, C: 1, S:0
+  Time: 10.8237219, C: 1, S:0
+  Time: 11.1493483, C: 1, S:0
+  Time: 12.3452072, C: 1, S:0
+  Time: 12.8797274, C: 1, S:0
+  Time: 13.2841063, C: 1, S:0
+  Time: 13.8429213, C: 1, S:0
+  Time: 13.852438, C: 1, S:0
+  Time: 14.174859, C: 1, S:0
+  Time: 14.2416363, C: 1, S:0
+  Time: 14.4194975, C: 1, S:0
+  Time: 15.1928215, C: 1, S:0
+  Time: 15.7041492, C: 1, S:0
+  Time: 16.5630169, C: 1, S:0
+  Time: 17.0227776, C: 1, S:0
+  Time: 17.3286991, C: 1, S:0
+  Time: 17.6947289, C: 1, S:0
+  Time: 17.8410492, C: 1, S:0
+  Time: 18.0785904, C: 1, S:0
+  Time: 18.84692, C: 1, S:0
+  Time: 18.9159966, C: 1, S:0
+  Time: 18.9624424, C: 1, S:0
+  Time: 18.9868374, C: 1, S:0
+  Time: 19.0981789, C: 1, S:0
+  Time: 19.2524128, C: 1, S:0
+  Time: 19.4002991, C: 1, S:0
+  Time: 19.6364841, C: 1, S:0
+  Time: 20.0571938, C: 1, S:0
+  Time: 20.5433426, C: 1, S:0
+  Time: 20.8613796, C: 1, S:0
+  Time: 21.1962242, C: 1, S:0
+  Time: 21.273241, C: 1, S:0
+  Time: 21.3139992, C: 1, S:0
+  Time: 21.3524418, C: 1, S:0
+  Time: 21.3581963, C: 1, S:0
+  Time: 21.7556572, C: 1, S:0
+  Time: 21.782135, C: 1, S:0
+  Time: 22.4364586, C: 1, S:0
+  Time: 22.5048141, C: 1, S:0
+  Time: 23.5332165, C: 1, S:0
+  Time: 23.6030903, C: 1, S:0
+  Time: 23.7993755, C: 1, S:0
+  Time: 24.00667, C: 1, S:0
+  Time: 24.1250954, C: 1, S:0
+  Time: 24.1320801, C: 1, S:0
+  Time: 24.3430042, C: 1, S:0
+  Time: 24.4160366, C: 1, S:0
+  Time: 24.4879684, C: 1, S:0
+  Time: 24.5159416, C: 1, S:0
+  Time: 24.5590382, C: 1, S:0
+  Time: 24.5961857, C: 1, S:0
+  Time: 24.6490726, C: 1, S:0
+  Time: 24.7201385, C: 1, S:0
+  Time: 25.3376808, C: 1, S:0
+  Time: 25.3980694, C: 1, S:0
+  Time: 25.4244156, C: 1, S:0
+  Time: 25.6332779, C: 1, S:0
+  Time: 26.1214218, C: 1, S:0
+  Time: 26.1944256, C: 1, S:0
+  Time: 26.2167988, C: 1, S:0
+  Time: 26.3821564, C: 1, S:0
+  Time: 26.5278702, C: 1, S:0
+  Time: 26.5807419, C: 1, S:0
+  Time: 26.7371178, C: 1, S:0
+  Time: 27.280632, C: 1, S:0
+  Time: 28.2519913, C: 1, S:0
+  Time: 28.4770641, C: 1, S:0
+  Time: 28.6259136, C: 1, S:0
+  Time: 28.6647701, C: 1, S:0
+  Time: 28.9987946, C: 1, S:0
+  Time: 29.0558548, C: 1, S:0
+  Time: 29.3174572, C: 1, S:0
+  Time: 30.029911, C: 1, S:0
+  Time: 30.1695595, C: 1, S:0
+  Time: 30.4427147, C: 1, S:0
+  Time: 30.5381126, C: 1, S:0
+  Time: 30.6644745, C: 1, S:0
+  Time: 30.8175716, C: 1, S:0
+  Time: 31.0539932, C: 1, S:0
+  Time: 31.0885944, C: 1, S:0
+  Time: 31.1365299, C: 1, S:0
+  Time: 31.1554947, C: 1, S:0
+  Time: 31.5157776, C: 1, S:0
+  Time: 31.8272285, C: 1, S:0
+  Time: 32.4823418, C: 1, S:0
+  Time: 32.5882416, C: 1, S:0
+  Time: 32.7035828, C: 1, S:0
+  Time: 32.7042809, C: 1, S:0
+  Time: 32.9762001, C: 1, S:0
+  Time: 33.0135689, C: 1, S:0
+  Time: 33.0608215, C: 1, S:0
+  Time: 33.6406975, C: 1, S:0
+  Time: 33.8185577, C: 1, S:0
+  Time: 33.9071198, C: 1, S:0
+  Time: 34.1388283, C: 1, S:0
+  Time: 34.5254669, C: 1, S:0
+  Time: 34.7180634, C: 1, S:0
+  Time: 35.0113945, C: 1, S:0
+  Time: 35.0151672, C: 1, S:0
+  Time: 35.1548119, C: 1, S:0
+  Time: 35.5498505, C: 1, S:0
+  Time: 36.0460587, C: 1, S:0
+  Time: 36.3938942, C: 1, S:0
+  Time: 36.5627937, C: 1, S:0
+  Time: 36.6642265, C: 1, S:0
+  Time: 36.7612419, C: 1, S:0
+  Time: 36.8173256, C: 1, S:0
+  Time: 36.8698387, C: 1, S:0
+  Time: 36.9019508, C: 1, S:0
+  Time: 37.0972443, C: 1, S:0
+  Time: 37.8884087, C: 1, S:0
+  Time: 37.8982468, C: 1, S:0
+  Time: 37.9482155, C: 1, S:0
+  Time: 38.2191582, C: 1, S:0
+  Time: 38.429081, C: 1, S:0
+  Time: 38.7707863, C: 1, S:0
+  Time: 38.8950005, C: 1, S:0
+  Time: 38.9520493, C: 1, S:0
+  Time: 39.1918869, C: 1, S:0
+  Time: 39.2149124, C: 1, S:0
+  Time: 39.5097237, C: 1, S:0
+  Time: 39.848217, C: 1, S:0
+  Time: 40.4853783, C: 1, S:0
+  Time: 40.8143311, C: 1, S:0
+  Time: 41.3414726, C: 1, S:0
+  Time: 41.4208107, C: 1, S:0
+  Time: 41.8268089, C: 1, S:0
+  Time: 42.3352585, C: 1, S:0
+  Time: 42.7253532, C: 1, S:0
+  Time: 42.9798012, C: 1, S:0
+  Time: 43.0927925, C: 1, S:0
+  Time: 43.1638069, C: 1, S:0
+  Time: 43.2232742, C: 1, S:0
+  Time: 43.3280067, C: 1, S:0
+  Time: 43.3452072, C: 1, S:0
+  Time: 43.4059563, C: 1, S:0
+  Time: 43.4225044, C: 1, S:0
+  Time: 43.4959908, C: 1, S:0
+  Time: 44.2326851, C: 1, S:0
+  Time: 44.254776, C: 1, S:0
+  Time: 44.5939331, C: 1, S:0
+  Time: 45.0147438, C: 1, S:0
+  Time: 45.5833092, C: 1, S:0
+  Time: 45.6355362, C: 1, S:0
+  Time: 45.8532791, C: 1, S:0
+  Time: 46.1251373, C: 1, S:0
+  Time: 46.1645164, C: 1, S:0
+  Time: 46.252327, C: 1, S:0
+  Time: 46.3038864, C: 1, S:0
+  Time: 46.3965988, C: 1, S:0
+  Time: 46.5270538, C: 1, S:0
+  Time: 46.870224, C: 1, S:0
+  Time: 47.1510582, C: 1, S:0
+  Time: 47.3215714, C: 1, S:0
+  Time: 47.4738655, C: 1, S:0
+  Time: 47.6779518, C: 1, S:0
+  Time: 47.8345299, C: 1, S:0
+  Time: 47.8823318, C: 1, S:0
+  Time: 49.6161385, C: 1, S:0
+  Time: 49.6608429, C: 1, S:0
+  Time: 49.8221397, C: 1, S:0
+  Time: 49.8469009, C: 1, S:0
+
+Running Events:
+  0.112991899 Added Customer
+  0.366666675 Teller Serving
+  0.389521331 Added Customer
+  0.423939466 Added Customer
+  1.06887615 Added Customer
+  1.12767482 Customer Served Teller Serving
+  1.38943624 Customer Served Teller Serving
+  1.51189291 Added Customer
+  1.91842127 Added Customer
+  2.09464073 Added Customer
+  2.09804463 Added Customer
+  2.36666656 Teller Serving
+  2.5137012 Customer Served Teller Serving
+  2.6137073 Added Customer
+  2.73342896 Added Customer
+  2.98480701 Added Customer
+  2.99017048 Customer Served Teller Serving
+  3.18793654 Added Customer
+  3.55371284 Added Customer
+  3.6805048 Added Customer
+  4.01854992 Customer Served Teller Serving
+  4.24532175 Added Customer
+  4.2927289 Customer Served Teller Serving
+  4.34658003 Customer Served Teller Serving
+  4.58707285 Customer Served Teller Serving
+  4.99704599 Customer Served Teller Serving
+  5.19264221 Added Customer
+  5.21559381 Added Customer
+  5.25956392 Added Customer
+  5.39570522 Added Customer
+  5.54785967 Added Customer
+  5.57421589 Added Customer
+  5.75769567 Added Customer
+  5.80000019 Teller Serving
+  5.91490269 Customer Served Teller Serving
+  5.93738127 Added Customer
+  6.16364861 Customer Served Teller Serving
+  6.16485167 Added Customer
+  6.28359604 Customer Served Teller Serving
+  6.55406713 Customer Served Teller Serving
+  6.89904976 Customer Served Teller Serving
+  7.18044329 Added Customer
+  7.30551195 Added Customer
+  7.55468845 Added Customer
+  7.68148136 Customer Served Teller Serving
+  7.77955198 Customer Served Teller Serving
+  7.9181776 Added Customer
+  8.01666641 Teller Serving
+  8.27466583 Added Customer
+  8.41111183 Added Customer
+  8.41716385 Added Customer
+  8.43585491 Customer Served Teller Serving
+  8.54533577 Customer Served Teller Serving
+  8.85000038 Teller Serving
+  8.85913181 Added Customer
+  8.94941807 Added Customer
+  9.37335682 Added Customer
+  9.54264164 Added Customer
+  9.57927322 Added Customer
+  9.58423138 Customer Served Teller Serving
+  9.60322666 Customer Served Teller Serving
+  9.76016998 Added Customer
+  9.8630476 Customer Served Teller Serving
+  9.8812542 Customer Served Teller Serving
+  9.92258453 Customer Served Teller Serving
+  10.1994696 Added Customer
+  10.4336967 Customer Served Teller Serving
+  10.6683903 Added Customer
+  10.7455282 Customer Served Teller Serving
+  10.8237219 Added Customer
+  10.9062643 Customer Served Teller Serving
+  11.1493483 Added Customer
+  11.2001648 Customer Served Teller Serving
+  11.269907 Customer Served Teller Serving
+  11.3045101 Customer Served Teller Serving
+  11.7015314 Customer Served Teller Serving
+  11.9816008 Customer Served Teller Serving
+  12.0560474 Customer Served Teller Serving
+  12.0725899 Customer Served Teller Serving
+  12.3452072 Added Customer
+  12.6169901 Customer Served Teller Serving
+  12.7618303 Customer Served Teller Serving
+  12.8797274 Added Customer
+  13.1575861 Customer Served Teller Serving
+  13.2290077 Customer Served Teller Serving
+  13.2841063 Added Customer
+  13.3034906 Customer Served Teller Serving
+  13.6003857 Customer Served Teller Serving
+  13.8429213 Added Customer
+  13.852438 Added Customer
+  13.877409 Customer Served Teller Serving
+  14.1119595 Customer Served Teller Serving
+  14.174859 Added Customer
+  14.219408 Customer Served Teller Serving
+  14.2416363 Added Customer
+  14.2917051 Customer Served Teller Serving
+  14.4194975 Added Customer
+  14.5056934 Customer Served Teller Serving
+  14.5202188 Customer Served Teller Idle
+  14.6722345 Customer Served Teller Idle
+  15.1928215 Added Customer
+  15.5846338 Customer Served Teller Serving
+  15.6755066 Customer Served Teller Idle
+  15.6811171 Customer Served Teller Idle
+  15.7041492 Added Customer
+  15.847784 Teller Serving
+  15.9872503 Customer Served Teller Idle
+  16.525507 Teller Idle
+  16.5630169 Added Customer
+  16.8702183 Teller Serving
+  17.0227776 Added Customer
+  17.0389004 Teller Serving
+  17.0998669 Customer Served Teller Idle
+  17.1419525 Customer Served Teller Idle
+  17.2412109 Customer Served Teller Idle
+  17.3286991 Added Customer
+  17.4921741 Teller Serving
+  17.6947289 Added Customer
+  17.7252865 Teller Serving
+  17.8410492 Added Customer
+  18.0785904 Added Customer
+  18.1205845 Teller Serving
+  18.4208622 Customer Served Teller Serving
+  18.7498665 Teller Idle
+  18.7745438 Teller Idle
+  18.84692 Added Customer
+  18.9159966 Added Customer
+  18.9624424 Added Customer
+  18.9868374 Added Customer
+  19.0981789 Added Customer
+  19.2524128 Added Customer
+  19.3725224 Customer Served Teller Serving
+  19.4002991 Added Customer
+  19.4067993 Customer Served Teller Serving
+  19.4912109 Teller Serving
+  19.5315819 Customer Served Teller Serving
+  19.5731487 Customer Served Teller Serving
+  19.6364841 Added Customer
+  20.0571938 Added Customer
+  20.2770882 Customer Served Teller Serving
+  20.3531876 Customer Served Teller Serving
+  20.3831997 Teller Serving
+  20.5433426 Added Customer
+  20.6865807 Customer Served Teller Serving
+  20.7613354 Customer Served Teller Serving
+  20.8613796 Added Customer
+  21.1962242 Added Customer
+  21.2018299 Customer Served Teller Serving
+  21.273241 Added Customer
+  21.3139992 Added Customer
+  21.3241405 Customer Served Teller Serving
+  21.3524418 Added Customer
+  21.3581963 Added Customer
+  21.5196629 Customer Served Teller Serving
+  21.63834 Customer Served Teller Serving
+  21.7556572 Added Customer
+  21.782135 Added Customer
+  21.960495 Customer Served Teller Serving
+  22.1272087 Customer Served Teller Serving
+  22.4364586 Added Customer
+  22.5048141 Added Customer
+  22.8361683 Customer Served Teller Serving
+  23.0148125 Customer Served Teller Serving
+  23.0694962 Customer Served Teller Serving
+  23.3062057 Customer Served Teller Serving
+  23.5332165 Added Customer
+  23.5476208 Customer Served Teller Serving
+  23.6030903 Added Customer
+  23.7993755 Added Customer
+  24.00667 Added Customer
+  24.0537834 Customer Served Teller Serving
+  24.1250954 Added Customer
+  24.1320801 Added Customer
+  24.160183 Customer Served Teller Serving
+  24.323204 Customer Served Teller Serving
+  24.3430042 Added Customer
+  24.4160366 Added Customer
+  24.4879684 Added Customer
+  24.5159416 Added Customer
+  24.5349407 Customer Served Teller Serving
+  24.5590382 Added Customer
+  24.5961857 Added Customer
+  24.6037369 Customer Served Teller Serving
+  24.6490726 Added Customer
+  24.7201385 Added Customer
+  24.7339439 Customer Served Teller Serving
+  25.0286846 Customer Served Teller Serving
+  25.0639839 Customer Served Teller Serving
+  25.1525879 Customer Served Teller Serving
+  25.2690601 Customer Served Teller Serving
+  25.3376808 Added Customer
+  25.3977604 Customer Served Teller Serving
+  25.3980694 Added Customer
+  25.4244156 Added Customer
+  25.6332779 Added Customer
+  25.8034611 Customer Served Teller Serving
+  25.8212833 Customer Served Teller Serving
+  26.1214218 Added Customer
+  26.1944256 Added Customer
+  26.2167988 Added Customer
+  26.3821564 Added Customer
+  26.5278702 Added Customer
+  26.5807419 Added Customer
+  26.6183376 Customer Served Teller Serving
+  26.6271915 Customer Served Teller Serving
+  26.7371178 Added Customer
+  26.9865513 Customer Served Teller Serving
+  27.0399513 Customer Served Teller Serving
+  27.280632 Added Customer
+  27.6325474 Customer Served Teller Serving
+  27.7738132 Customer Served Teller Serving
+  27.8403893 Customer Served Teller Serving
+  28.1746731 Customer Served Teller Serving
+  28.1790371 Customer Served Teller Serving
+  28.2519913 Added Customer
+  28.4770641 Added Customer
+  28.5903206 Customer Served Teller Serving
+  28.6259136 Added Customer
+  28.6647701 Added Customer
+  28.8499451 Customer Served Teller Serving
+  28.9987946 Added Customer
+  29.0387974 Customer Served Teller Serving
+  29.0558548 Added Customer
+  29.0746059 Customer Served Teller Serving
+  29.1429005 Customer Served Teller Serving
+  29.2177429 Customer Served Teller Serving
+  29.3174572 Added Customer
+  29.4232483 Customer Served Teller Serving
+  29.7185516 Customer Served Teller Serving
+  29.7440262 Customer Served Teller Serving
+  29.7918472 Customer Served Teller Serving
+  30.029911 Added Customer
+  30.1695595 Added Customer
+  30.4427147 Added Customer
+  30.5381126 Added Customer
+  30.6644745 Added Customer
+  30.8175716 Added Customer
+  30.9588108 Customer Served Teller Serving
+  31.0539932 Added Customer
+  31.0885944 Added Customer
+  31.1161633 Customer Served Teller Serving
+  31.1365299 Added Customer
+  31.1554947 Added Customer
+  31.2454357 Customer Served Teller Serving
+  31.3366756 Customer Served Teller Serving
+  31.3724365 Customer Served Teller Serving
+  31.4363384 Customer Served Teller Serving
+  31.5157776 Added Customer
+  31.8272285 Added Customer
+  32.1721497 Customer Served Teller Serving
+  32.4823418 Added Customer
+  32.4922028 Customer Served Teller Serving
+  32.5426826 Customer Served Teller Serving
+  32.5882416 Added Customer
+  32.7035828 Added Customer
+  32.7042809 Added Customer
+  32.8777199 Customer Served Teller Serving
+  32.8948212 Customer Served Teller Serving
+  32.9762001 Added Customer
+  33.0135689 Added Customer
+  33.0608215 Added Customer
+  33.2126999 Customer Served Teller Serving
+  33.4547997 Customer Served Teller Serving
+  33.6406975 Added Customer
+  33.8185577 Added Customer
+  33.9071198 Added Customer
+  34.1320343 Customer Served Teller Serving
+  34.1388283 Added Customer
+  34.2617531 Customer Served Teller Serving
+  34.3239708 Customer Served Teller Serving
+  34.4133148 Customer Served Teller Serving
+  34.4634285 Customer Served Teller Serving
+  34.5254669 Added Customer
+  34.7180634 Added Customer
+  35.0113945 Added Customer
+  35.0151672 Added Customer
+  35.1548119 Added Customer
+  35.4637718 Customer Served Teller Serving
+  35.5498505 Added Customer
+  35.6869698 Customer Served Teller Serving
+  35.8599052 Customer Served Teller Serving
+  35.8863182 Customer Served Teller Serving
+  36.0460587 Added Customer
+  36.2150002 Customer Served Teller Serving
+  36.2656441 Customer Served Teller Serving
+  36.3162079 Customer Served Teller Serving
+  36.3443108 Customer Served Teller Serving
+  36.3938942 Added Customer
+  36.5627937 Added Customer
+  36.6642265 Added Customer
+  36.7557335 Customer Served Teller Serving
+  36.7612419 Added Customer
+  36.8173256 Added Customer
+  36.8698387 Added Customer
+  36.9019508 Added Customer
+  36.9019966 Customer Served Teller Serving
+  37.0905037 Customer Served Teller Serving
+  37.0972443 Added Customer
+  37.4861679 Customer Served Teller Serving
+  37.650486 Customer Served Teller Serving
+  37.7657814 Customer Served Teller Serving
+  37.8884087 Added Customer
+  37.8982468 Added Customer
+  37.9432068 Customer Served Teller Serving
+  37.9482155 Added Customer
+  38.2191582 Added Customer
+  38.429081 Added Customer
+  38.6123886 Customer Served Teller Serving
+  38.7192841 Customer Served Teller Serving
+  38.7707863 Added Customer
+  38.8950005 Added Customer
+  38.9431915 Customer Served Teller Serving
+  38.9520493 Added Customer
+  39.0357246 Customer Served Teller Serving
+  39.0722694 Customer Served Teller Serving
+  39.1918869 Added Customer
+  39.2149124 Added Customer
+  39.4835587 Customer Served Teller Serving
+  39.5097237 Added Customer
+  39.5649185 Customer Served Teller Serving
+  39.594902 Customer Served Teller Serving
+  39.6439018 Customer Served Teller Serving
+  39.7253571 Customer Served Teller Serving
+  39.848217 Added Customer
+  40.4013672 Customer Served Teller Serving
+  40.4853783 Added Customer
+  40.8143311 Added Customer
+  40.839035 Customer Served Teller Serving
+  40.9772072 Customer Served Teller Serving
+  41.0049591 Customer Served Teller Serving
+  41.2938728 Customer Served Teller Serving
+  41.3224716 Customer Served Teller Serving
+  41.3414726 Added Customer
+  41.3485832 Customer Served Teller Serving
+  41.4208107 Added Customer
+  41.4800682 Customer Served Teller Serving
+  41.5637894 Customer Served Teller Serving
+  41.6046906 Customer Served Teller Serving
+  41.6207428 Customer Served Teller Serving
+  41.7077141 Customer Served Teller Idle
+  41.7077141 Teller Idle
+  41.8268089 Added Customer
+  42.1112633 Customer Served Teller Serving
+  42.3352585 Added Customer
+  42.3528938 Customer Served Teller Serving
+  42.389122 Customer Served Teller Idle
+  42.4173279 Customer Served Teller Idle
+  42.7253532 Added Customer
+  42.9743805 Teller Serving
+  42.9798012 Added Customer
+  43.0927925 Added Customer
+  43.1638069 Added Customer
+  43.2232742 Added Customer
+  43.3280067 Added Customer
+  43.3359604 Customer Served Teller Serving
+  43.3452072 Added Customer
+  43.3649178 Customer Served Teller Serving
+  43.4059563 Added Customer
+  43.4225044 Added Customer
+  43.4959908 Added Customer
+  43.9006615 Teller Serving
+  44.0214996 Customer Served Teller Serving
+  44.2326851 Added Customer
+  44.254776 Added Customer
+  44.2724571 Teller Serving
+  44.4817467 Customer Served Teller Serving
+  44.5939331 Added Customer
+  44.7319565 Customer Served Teller Serving
+  44.8713684 Customer Served Teller Serving
+  45.0147438 Added Customer
+  45.0383186 Customer Served Teller Serving
+  45.3152466 Customer Served Teller Serving
+  45.375248 Customer Served Teller Serving
+  45.5833092 Added Customer
+  45.6355362 Added Customer
+  45.8532791 Added Customer
+  45.9531822 Customer Served Teller Serving
+  45.9929123 Customer Served Teller Serving
+  46.1251373 Added Customer
+  46.1320457 Customer Served Teller Serving
+  46.1645164 Added Customer
+  46.252327 Added Customer
+  46.2656784 Customer Served Teller Serving
+  46.3038864 Added Customer
+  46.3180122 Customer Served Teller Serving
+  46.3965988 Added Customer
+  46.5270538 Added Customer
+  46.5515862 Customer Served Teller Serving
+  46.7943192 Customer Served Teller Serving
+  46.870224 Added Customer
+  47.1510582 Added Customer
+  47.3215714 Added Customer
+  47.4122162 Customer Served Teller Serving
+  47.4738655 Added Customer
+  47.5983162 Customer Served Teller Serving
+  47.6779518 Added Customer
+  47.8345299 Added Customer
+  47.8823318 Added Customer
+  47.9955673 Customer Served Teller Serving
+  48.0107422 Customer Served Teller Serving
+  48.250843 Customer Served Teller Serving
+  48.3353691 Customer Served Teller Serving
+  49.2625465 Customer Served Teller Serving
+  49.4244614 Customer Served Teller Serving
+  49.6161385 Added Customer
+  49.6310272 Customer Served Teller Serving
+  49.6515732 Customer Served Teller Serving
+  49.6608429 Added Customer
+  49.8221397 Added Customer
+  49.8469009 Added Customer
+  49.9019699 Customer Served Teller Serving
+
+Final Simulation Statistics:
+  Total Customers Served:             191
+  Total Time:                         49.9019699
+  Total Number of Tellers:            5
+  Type of Queuing:                    Common Queue
+  Average Time in Bank:               2.30180788
+  Standard Deviation of Time in Bank: 0.735817373
+  Maximum Wait Time:                  3.41937971
+  Total Teller Service Time:          210.217987
+  Total Teller Idle Time:             19.5833321
